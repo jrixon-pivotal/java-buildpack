@@ -14,9 +14,15 @@
 # limitations under the License.
 
 # Configuration for JRE repositories keyed by vendor
+
+# changes for CF Immersion Lab - Buildpacks
+#
+#version: 1.7.0_+
+#
+
 ---
 repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
-version: 1.7.0_+
+version: 1.7.0_40
 memory_sizes:
   permgen: 64m..
 memory_heuristics:
